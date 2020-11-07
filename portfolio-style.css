@@ -1,3 +1,29 @@
-body {
-    font-family: 'Courier New';
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+#navbar ul {
+    background-color: rgb(100,130,230);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: flex-end;
+}
+
+main {
+    position: relative;
+    top: 105px;
+}
+
+#welcome-section {
+    height: 100vh;
+    background-color: rgb(30,30,30);
+    color: rgb(100,130,230);
 }
